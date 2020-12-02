@@ -5,5 +5,5 @@ function random1() {
 
 let element = document.getElementsByTagName('p')
 for (let i = 0; i < element.length; i++) {
-    element[i].innerHTML = random1();
+    element[i].innerHTML = random1().toString();
 }
