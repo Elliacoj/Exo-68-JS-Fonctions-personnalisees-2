@@ -1,6 +1,5 @@
 function random1() {
     return  Math.trunc(Math.random() * 100);
-
 }
 
 let element = document.getElementsByTagName('p')
